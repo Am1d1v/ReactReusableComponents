@@ -1,18 +1,12 @@
 import './App.css';
-
-function MyComponent(){
-  return (
-    <div>
-      <h1>Reusable component</h1>
-      <button>Click</button>
-    </div>
-  )
-}
+import MyComponent from './components/MyComponent';
+import TextComponent from './components/TextComponent';
 
 function App() {
   return( 
   <div className="App">
     <MyComponent />
+    <TextComponent />
     <MyComponent />
   </div>
   )
